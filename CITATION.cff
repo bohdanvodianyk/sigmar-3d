@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "SIGMAR-3D: Scale-Invariant Guaranteed Monotone Accurate Registration for 3D scenes"
+message: "If you use this software, please cite the paper listed under preferred-citation."
+type: software
+authors:
+  - family-names: Vodianyk
+    given-names: Bohdan
+    email: bohdan_vodianyk@uma.es
+    affiliation: "Universidad de Málaga, Spain"
+  - family-names: Nava-Baro
+    given-names: Enrique
+    affiliation: "Universidad de Málaga, Spain"
+  - family-names: Popov
+    given-names: Anton
+    affiliation: "Igor Sikorsky Kyiv Polytechnic Institute / Ukrainian Catholic University"
+version: "1.0.0"
+license: MIT
+# TODO: replace with the public repository URL once the code is pushed.
+repository-code: "https://github.com/bvodianyk/sigmar3d"
+keywords:
+  - 3D point cloud registration
+  - local 3D descriptors
+  - training-free alignment
+  - RANSAC-GICP refinement
+  - LiDAR
+  - RGB-D
+preferred-citation:
+  type: article
+  title: "SIGMAR-3D: Scale-Invariant Guaranteed Monotone Accurate Registration for 3D scenes"
+  authors:
+    - family-names: Vodianyk
+      given-names: Bohdan
+    - family-names: Nava-Baro
+      given-names: Enrique
+    - family-names: Popov
+      given-names: Anton
+  year: 2026
+  # TODO: add journal, volume, pages, and DOI on acceptance (currently under review).
+  notes: "Under review at a Springer Nature journal; update with venue and DOI on acceptance."

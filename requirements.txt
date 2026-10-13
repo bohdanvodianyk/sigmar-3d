@@ -1,0 +1,6 @@
+# Runtime dependencies for SIGMAR-3D, pinned to the stack used for the paper's results.
+# open3d is pinned exactly: its registration backend (GICP + robust kernels) and point-cloud
+# API vary across releases, and 0.19.0 is the version the reported numbers were produced with.
+numpy>=1.26,<2.0
+scipy>=1.10
+open3d==0.19.0

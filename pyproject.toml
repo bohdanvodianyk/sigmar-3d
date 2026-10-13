@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigmar3d"
+version = "1.0.0"
+description = "SIGMAR-3D: training-free pairwise 3D point-cloud registration (SIGMA descriptor + R-3D)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Bohdan Vodianyk", email = "bohdan_vodianyk@uma.es" },
+    { name = "Enrique Nava-Baro" },
+    { name = "Anton Popov" },
+]
+keywords = [
+    "3D point cloud registration",
+    "local 3D descriptors",
+    "training-free alignment",
+    "RANSAC",
+    "GICP",
+    "LiDAR",
+    "RGB-D",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "numpy>=1.26,<2.0",
+    "scipy>=1.10",
+    "open3d==0.19.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+viz = ["matplotlib>=3.5"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sigmar3d*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
