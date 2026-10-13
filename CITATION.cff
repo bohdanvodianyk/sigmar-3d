@@ -15,8 +15,7 @@ authors:
     affiliation: "Igor Sikorsky Kyiv Polytechnic Institute / Ukrainian Catholic University"
 version: "1.0.0"
 license: MIT
-# TODO: replace with the public repository URL once the code is pushed.
-repository-code: "https://github.com/bvodianyk/sigmar3d"
+repository-code: "https://github.com/bohdanvodianyk/sigmar-3d"
 keywords:
   - 3D point cloud registration
   - local 3D descriptors
